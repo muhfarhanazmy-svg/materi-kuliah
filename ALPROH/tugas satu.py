@@ -394,7 +394,7 @@ def pengumuman(store, matkul, kelas):
             header("DAFTAR PENGUMUMAN")
             if not store["pengumuman"]:
                 print("\n  Belum ada pengumuman."); kembali(); continue
-            for p in reversed(store["pengumuman"]):   # terbaru di atas
+            for p in reversed(store["pengumuman"]):  
                 print(f"\n  📢 #{p['id']}  {p['judul']}")
                 print(f"      {p['tanggal']}")
                 print(f"      {p['isi']}")
