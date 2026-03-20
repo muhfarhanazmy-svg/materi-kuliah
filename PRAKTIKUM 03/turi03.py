@@ -1,11 +1,3 @@
-#buat program menerima input paragraf teks panjang(dataset linkedin))
-#bersihkan teks dari smbol(titik, koma, dll)
-#gunakan dictionary untuk menghitung frekuensi kemunculan setiap kata(word count)
-#kata sebagai key dan frekuensi sebagai value
-#tampilkan daftar kata unik dan jumlahnya dalam tabel streamlit
-#analsis:jelaskan direadme.md mengapa dict lebih coocok untuk tugas ini dibanding pakai dua buah list(satu kata,satu list jumlah)
-#mulai
-
 import streamlit as st
 
 st.title("🔍 Analisis Frekuensi Kata dari Paragraf")
@@ -29,4 +21,3 @@ if st.button("Hitung Frekuensi Kata"):
         # Tampilkan daftar kata unik dan jumlahnya dalam tabel Streamlit
         st.subheader("Frekuensi Kata Unik:")
         st.table({"Kata": list(word_count.keys()), "Frekuensi": list(word_count.values())})
-        
