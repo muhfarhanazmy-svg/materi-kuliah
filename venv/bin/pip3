@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/paanrajagula/LABOR PYTHON/materi-kuliah/venv/bin/python" "$0" "$@"
+'''exec' "/home/paanrajagula/LABOR PYTHON/materi-kuliah/venv/bin/python3" "$0" "$@"
 ' '''
 import sys
 from pip._internal.cli.main import main
