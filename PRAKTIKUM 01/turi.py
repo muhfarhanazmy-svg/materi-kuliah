@@ -22,3 +22,4 @@ if st.button("Proses Kalimat"):
         st.info(f"Total Penggunaan Memori: {memori_digunakan} Bytes")
         #tes
 #tes
+#tes
