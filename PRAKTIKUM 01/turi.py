@@ -1,10 +1,3 @@
-#prototipe sistem manajemen sequence data utk riset BERT-LSTM
-#buatlahprograminputkalimat panjang
-#lalu buatlah program untuk memecah kalimat tersebut menjadi list kata
-#buat list baru yang berisi kata dengan panjang lebih dari 3 karakter
-#tampilkan total penggunaan memori dari list hasil filter tersebut
-#output:tampilkan hasilny dlm dashbord stream lit yg rapi
-
 import streamlit as st
 import sys
 
@@ -27,3 +20,5 @@ if st.button("Proses Kalimat"):
         st.subheader("Hasil Filter Kata:")
         st.write(filtered_kata)
         st.info(f"Total Penggunaan Memori: {memori_digunakan} Bytes")
+        #tes
+#tes
