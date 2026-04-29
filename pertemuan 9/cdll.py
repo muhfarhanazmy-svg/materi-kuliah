@@ -26,7 +26,7 @@ class MusicPlaylist:
 
     def delete_current(self):
         if not self.current: return
-        
+        e
         if self.current.next == self.current: # Jika sisa 1 lagu
             self.head = None
             self.current = None
