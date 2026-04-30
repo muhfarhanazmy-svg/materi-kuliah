@@ -30,6 +30,12 @@ class Stack:
         if not self.head:
             return None
         return self.head.data
+    # method untuk menampilkan stackd
+    def display(self):
+        temp= self.head
+        while temp:
+            print(temp.data)
+            temp = temp.next
 
 # Penggunaan
 mystack = Stack()
